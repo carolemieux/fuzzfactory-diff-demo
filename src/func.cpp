@@ -6,7 +6,8 @@ int parse(std::string parsable) {
      return 0;
    }
    if (parsable.compare(0, 3, "GIF") == 0){
-    return 2;
+    std::cout << "A changed piece of code\n";
+    return 3;
    } else if (parsable.compare(0,3, "JPG") == 0) {
     return 1;
    }

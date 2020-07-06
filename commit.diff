@@ -1,0 +1,18 @@
+diff --git a/src/.main.cpp.swp b/src/.main.cpp.swp
+deleted file mode 100644
+index 2c7dfd5..0000000
+Binary files a/src/.main.cpp.swp and /dev/null differ
+diff --git a/src/func.cpp b/src/func.cpp
+index e0ea124..896ab4c 100644
+--- a/src/func.cpp
++++ b/src/func.cpp
+@@ -6,7 +6,8 @@ int parse(std::string parsable) {
+      return 0;
+    }
+    if (parsable.compare(0, 3, "GIF") == 0){
+-    return 2;
++    std::cout << "A changed piece of code\n";
++    return 3;
+    } else if (parsable.compare(0,3, "JPG") == 0) {
+     return 1;
+    }
